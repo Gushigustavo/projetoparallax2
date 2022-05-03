@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Krub:wght@200&display=swap');
+
+:root{
+    --cor0:#d5fff3;
+    --cor1:#C7EDE4;
+    --cor2:#087F8C;
+    --cor3:#095256;
+    --cor4:#272D2D;
+
+    --fontpadrao:'Krub', sans-serif;
+
+
+}
+
+*{
+    border: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+section.container{
+    display: flex;
+    justify-content: space-between;
+    
+    
+    background-color: var(--cor4);
+
+}
+section.container1, section.container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--fontpadrao);
+    color: var(--cor1);
+    border-right: 1px solid var(--cor0);
+    font-size:2.3vw ;
+    width: 12vw;
+    height: 60px;
+    font-weight: bolder;
+}
+
+
+
+
+ nav.navegar{
+    
+     font-family: var(--fontpadrao);
+     margin-left: 20px;
+    
+     font-size: 0.9em;
+     color: var(--cor1);
+     
+     
+ }
+ #arrow{
+     cursor: pointer;
+ }
+ .rotacaoseta{
+     transform: rotate(180deg);
+     transition: 300ms;
+ }
+ 
+  .container2 button{
+      background-color: var(--cor2);
+      color: var(--cor1);
+      padding:  5px 10px;
+      border-radius: 5px;
+      
+      margin-right: 20px;
+       font-size:0.9em ;
+      font-family: var(--fontpadrao);
+      cursor: pointer;
+
+      
+
+ }
+ .container2 button:hover{
+     background-color: var(--cor3);
+     letter-spacing: 1px;
+     transition: all 0.3s ease;
+     
+ }
+ .user{
+     margin-right: 20px;
+ }
+ 
+    
+ section.container3{
+     position: relative;
+     background-color: var(--cor2);
+     height: 91.8vh;
+     background-image: url("imagens/pexels-luis-felipe-alburquerque-briganti-5918213.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+ 
+    
+}
+.text{
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #087f8c34;
+    font-family: var(--fontpadrao);
+    font-size: 3.8vw;
+    color: var(--cor1);
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    text-transform: unset;
+    text-shadow:1px 1px 1px #272D2D;
+    
+    
+}
+section.container3::before{
+display: inline-block;
+position: absolute;
+content: "";
+height: 100%;
+width: 100%;
+
+background-image: linear-gradient(0deg,rgba(0, 0, 0, 0.842) 10%,rgba(0, 0, 0, 0.623),rgba(0, 0, 0, 0.24));
+}
+        
+
+    
+        
+
+    

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Flex</title>
+    <style>
+
+    </style>
+</head>
+<body>
+
+    <section class="container">
+
+    <section class="container1">
+
+             <div class=" container logo">
+                 LOGO
+             </div>
+    
+    
+            <nav class="navegar">
+               <span>Navegar</span> 
+               
+             <span onclick="displayAbout()" id="arrow">
+
+                 <img  id="animation" src="arrow-down.svg" alt="arrow-down">
+                
+                </span>  
+               
+            </nav>
+    
+</section>
+
+<section class="container2">
+         
+        
+                <button>Sign in</button>
+    
+
+        
+                <img class="user" src="user.svg" alt="Imagens Usuario">
+
+        
+</section>
+</section>
+
+    <section class="container3">
+        <div class="text">Developer Front-end</div>
+    </section>
+
+
+   
+    <script>
+         function displayAbout(){
+             var arrow = document.getElementById("animation")
+             arrow.classList.toggle("rotacaoseta")
+         }
+
+    </script>
+</body>
+</html>
