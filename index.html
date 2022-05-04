@@ -15,10 +15,6 @@
     <section class="container">
 
     <section class="container1">
-
-             <div class=" container logo">
-                 LOGO
-             </div>
     
     
             <nav class="navegar">
@@ -29,6 +25,7 @@
                  <img  id="animation" src="arrow-down.svg" alt="arrow-down">
                 
                 </span>  
+                
                
             </nav>
     
@@ -48,6 +45,11 @@
 </section>
 
     <section class="container3">
+                 <ul style="display: none;" id="about" >
+                    <li>ghghhhjh</li>
+                    <li>kjjjjjkjj</li>
+                    <li>kjkjkkkjkj</li>
+                </ul>
         <div class="text">Developer Front-end</div>
     </section>
 
@@ -57,7 +59,10 @@
          function displayAbout(){
              var arrow = document.getElementById("animation")
              arrow.classList.toggle("rotacaoseta")
+             var display = document.getElementById("about")
+             display.classList.toggle("active")
          }
+         
 
     </script>
 </body>
