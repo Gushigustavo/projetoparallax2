@@ -47,7 +47,7 @@ section.container1, section.container2{
     display: flex;
 
      font-family: var(--fontpadrao);
-     margin-left: 20px;
+     margin-left: 5px;
      font-size: 0.9em;
      color: var(--cor1);
      
@@ -109,7 +109,7 @@ margin-left: 15px;
 .container3 ul{
     
     color: var(--cor1);
-    margin-left:80px ;
+    margin-left:10px ;
     width: 140px;
     height: 90px;
     padding: 5px;
@@ -140,7 +140,7 @@ text-align: center;
     transform: translate(-50%, -50%);
     background-color: #087f8c34;
     font-family: var(--fontpadrao);
-    font-size: 3.8vw;
+    font-size: 4.3vw;
     color: var(--cor1);
     padding: 10px;
     border-radius: 5px;
